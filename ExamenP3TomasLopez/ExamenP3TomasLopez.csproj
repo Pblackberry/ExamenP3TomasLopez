@@ -67,9 +67,16 @@
 
 	<ItemGroup>
 	  <Folder Include="InterfacesTlopez\" />
-	  <Folder Include="Repositories\" />
 	  <Folder Include="ViewModelsTLopez\" />
-	  <Folder Include="ViewsTLopez\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="ViewsTLopez\PaginaBusqueda.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ViewsTLopez\PaginaPaises.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 </Project>
