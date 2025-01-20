@@ -16,6 +16,5 @@ namespace ExamenP3TomasLopez.ModelsTLopez
         public string Nombre { get; set; }
         public string Region { get; set; }
         public string Link { get; set; }
-        public string TLopez { get; set; }
     }
 }

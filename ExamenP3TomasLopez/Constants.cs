@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ExamenP3TomasLopez
 {
-    internal class Constants
+    public class Constants
     {
         public const string DBfilename = "Pais.db3";
         public const SQLiteOpenFlags Flags=
